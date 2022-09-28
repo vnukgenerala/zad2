@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.menu__inner{
+   margin: 25px;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.naw{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.naw li a{
+    text-transform: uppercase;
+    color: #999;
+    text-decoration: none;
+    padding: 15px ;
+}
+.naw li a:hover{
+    text-transform: uppercase;
+    color: rgb(254, 254, 254);
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 15px;
+}
+
+
+
+
